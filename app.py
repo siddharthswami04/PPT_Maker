@@ -49,11 +49,11 @@ else:
 
   # ======================step 3 BACKEND==============
 
-  def search_latest_info(query):
-    '''this function us to give latest search using tavily based on user query related research or contents '''
-    client = TavilyClient(api_key = TAVILY_API_KEY)
-    response = client.search(query)
-    return response
+def search_latest_info(query):
+  '''this function us to give latest search using tavily based on user query related research or contents '''
+  client = TavilyClient(api_key = TAVILY_API_KEY)
+  response = client.search(query)
+  return response
 
 
 def generate_image(img_prompt,slide_no = 1 ):
