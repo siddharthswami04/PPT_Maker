@@ -137,7 +137,7 @@ if (user_input):
               st.html(code, width="stretch", unsafe_allow_javascript=True)
 
             except Exception as err:
-                st.error("Error Code: ", err)
+                st.error("str(err)
     with tab3:
 
       if st.button("Click To Generate PPT", key="PPT-Button"):
