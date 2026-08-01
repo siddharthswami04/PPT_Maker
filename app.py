@@ -89,8 +89,8 @@ def run_agent(leader_agent,query):
 if all(ALL_API):
   leader_agent = create_agent(
     model=model,
-    tools=[search_latest_info,
-          #  generate_image
+    tools=[search_latest_info
+          #  generate_image,
            ])
   leader_agent
 
